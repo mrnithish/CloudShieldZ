@@ -1,4 +1,2 @@
 # CloudShieldZ
 
-
-Ai model
