@@ -1,3 +1,2 @@
 # CloudShieldZ
 
-Gen ai project
