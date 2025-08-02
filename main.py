@@ -16,7 +16,6 @@ generation_config = {
     "max_output_tokens": 8192,
     "response_mime_type": "text/plain",
 }
-
 # Create the Gemini model
 model = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
