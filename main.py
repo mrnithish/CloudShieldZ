@@ -8,6 +8,7 @@ from api_key import api_key  # Import API key securely
 os.environ["GEMINI_API_KEY"] = api_key
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
+
 # Set up generation configuration
 generation_config = {
     "temperature": 1,
