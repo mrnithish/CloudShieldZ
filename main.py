@@ -3,7 +3,6 @@ import os
 import google.generativeai as genai
 from api_key import api_key  # Import API key securely
 
-
 # Configure Gemini API key
 os.environ["GEMINI_API_KEY"] = api_key
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
@@ -113,3 +112,4 @@ if st.session_state.analysis_complete:
                 st.error("Failed to retrieve a response for your follow-up question.")
         else:
             st.warning("Please enter a question before submitting.")
+
